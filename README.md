@@ -28,10 +28,646 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+```
+menu.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Family Restaurant</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="menu">
+        <h1>Our Menu</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="item1.jpeg" alt="Pizza">
+                <h2>Pizza</h2>
+                <p>A classic pizza with fresh mozzarella, tomato sauce, and basil.</p>
+                <p class="price">rs.280</p>
+            </div>
+            <div class="menu-item">
+            <img src="item12.jpeg" alt="Pasta">
+                <h2>Pasta</h2>
+                <p>Creamy Alfredo sauce with fettuccine pasta.</p>
+                <p class="price">rs.130</p>
+            </div>
+            <div class="menu-item">
+                <img src="item3.jpeg" alt="Chicken roll">
+                <h2></h2>
+                <p>A spicy chicken roll with cheddar cheese, lettuce, and tomato.</p>
+                <p class="price">rs.190</p>
+            </div>
+            <div class="menu-item">
+                <img src="item4.jpeg" alt="fruit Salad">
+                <h2>fruit Salad</h2>
+                <p>Crisp romaine lettuce with fruit dressing, croutons, and parmesan.</p>
+                <p class="price">rs.150</p>
+            </div>
+            <div class="menu-item">
+                <img src="item5.jpeg" alt="spaghetti Bolognese">
+                <h2>Spaghetti Bolognese</h2>
+                <p>Spaghetti pasta topped with rich, flavorful meat sauce.</p>
+                <p class="price">rs.259</p>
+            </div>
+            <div class="menu-item">
+                <img src="item6.jpeg" alt="Grilled Steak">
+                <h2>Grilled Steak</h2>
+                <p>Juicy grilled steak served with mashed potatoes and veggies.</p>
+                <p class="price">rs.49</p>
+            </div>
+        <div class="menu-item">
+            <img src="item7.jpeg" alt="Double burger">
+            <h2>Double burger</h2>
+            <p>Full pound of meat stacked on a toastesd bun.</p>
+            <p class="price">rs.222</p>
+        </div>
+        <div class="menu-item">
+            <img src="item8.jpeg" alt="Chicken sandwich">
+            <h2>Chicken sandwich</h2>
+            <p>Grilled or fried</p>
+            <p class="price">rs.90</p>
+        </div>
+        <div class="menu-item">
+            <img src="item9.jpeg" alt="BBQ">
+            <h2>BBQ</h2>
+            <p>Smokin' Barrel BBQ,BBQ Haven,Grill & Smoke,Flame & Ash BBQ</p>
+            <p class="price">rs.450</p>
+        </div>
+        <div class="menu-item">
+            <img src="item10.jpeg" alt="BBQ pulled pork">
+            <h2>BBQ pulled pork</h2>
+            <p>Somked brisket served on toasted bun with onions and pickles</p>
+            <p class="price">rs.670</p>
+        </div>
+        <div class="menu-item">
+            <img src="item11.jpeg" alt="Biryani">
+            <h2>Biryani</h2>
+            <p>chicken biryani with egg ,chicken lollypop dry</p>
+            <p class="price">rs.150</p>
+        </div>
+        <div class="menu-item">
+            <img src="item12.jpeg" alt="Parotta">
+            <h2>Parotta</h2>
+            <p>Flaky & Hot Parottas,Golden Parotta,Parotta & Curries</p>
+            <p class="price">rs.50</p>
+        </div>
+
+
+
+
+
+    </section>
+
+    <footer>
+        <p>Designed by Devika.D (24002534)</p>
+    </footer>
+</body>
+</html>
+
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX - Family Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>We serve the finest dishes made with fresh ingredients. Come visit us!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed by Devika.D (24002534)</p>
+    </footer>
+</body>
+</html>
+administration.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration - Family Restaurant</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="administration">
+        <h1>Meet Our Team</h1>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="nayanthara.png" alt="Admin 1">
+                <h2>nayanthara</h2>
+                <p>General Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="ratan tata.png" alt="Admin 2">
+                <h2>ratan tata</h2>
+                <p>Head Chef</p>
+            </div>
+            <div class="team-member">
+                <img src="samantha.png" alt="Admin 3">
+                <h2>samantha</h2>
+                <p>Operations Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="sundarpitchai.png" alt="Admin 4">
+                <h2>sundar pitchai</h2>
+                <p>Marketing Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="surya.png" alt="Admin 5">
+                <h2>surya</h2>
+                <p>HR Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="vijay.png" alt="Admin 6">
+                <h2>vijay</h2>
+                <p>Head Waiter</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed by Devika.D (24002534)</p>
+    </footer>
+</body>
+</html>
+
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration - Family Restaurant</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="administration">
+        <h1>Meet Our Team</h1>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="nayanthara.png" alt="Admin 1">
+                <h2>nayanthara</h2>
+                <p>General Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="ratan tata.png" alt="Admin 2">
+                <h2>ratan tata</h2>
+                <p>Head Chef</p>
+            </div>
+            <div class="team-member">
+                <img src="samantha.png" alt="Admin 3">
+                <h2>samantha</h2>
+                <p>Operations Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="sundarpitchai.png" alt="Admin 4">
+                <h2>sundar pitchai</h2>
+                <p>Marketing Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="surya.png" alt="Admin 5">
+                <h2>surya</h2>
+                <p>HR Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="vijay.png" alt="Admin 6">
+                <h2>vijay</h2>
+                <p>Head Waiter</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed by Devika.D (24002534)</p>
+    </footer>
+</body>
+</html>
+css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+section .menu ul {
+    list-style-type: none;
+}
+
+section .menu li {
+    margin: 15px 0;
+}
+
+section .team-member {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+section .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* fallback color */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Administration Section */
+.administration {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.administration h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Grid Layout for Team Members */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    padding: 20px;
+}
+
+/* Individual Team Member Card */
+.team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Member Image Styling */
+.team-member img {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Team Member Name */
+.team-member h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Team Member Designation */
+.team-member p {
+    font-size: 1em;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}   
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* fallback color */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Banner section with background image */
+.banner {
+    background-image: url('BG.jpg'); /* Change this to the path of your image */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height of the banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    z-index: 1; /* Makes sure the text is above the background */
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Other sections styling */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+section .menu ul {
+    list-style-type: none;
+}
+
+section .menu li {
+    margin: 15px 0;
+}
+
+section .team-member {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+section .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* fallback color */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Administration Section */
+.administration {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.administration h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Grid Layout for Team Members */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    padding: 20px;
+}
+
+/* Individual Team Member Card */
+.team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Member Image Styling */
+.team-member img {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Team Member Name */
+.team-member h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Team Member Designation */
+.team-member p {
+    font-size: 1em;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+```
 
 ## OUTPUT:
-
-
+![alt text](<Screenshot (59)-1.png>)
+![alt text](<Screenshot (60).png>)
+![alt text](<Screenshot (61).png>)
+![alt text](<Screenshot (62).png>)
+![alt text](<Screenshot (63)-1.png>)
+![alt text](<Screenshot (64).png>)
+![alt text](<Screenshot (65).png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
